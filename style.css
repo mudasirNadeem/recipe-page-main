@@ -1,0 +1,70 @@
+        body {
+            font-family: 'outfit-light';
+            background-color: #f5e6d3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 20px 0;
+            font-size: 16px;
+            font-weight: 400;
+            color: hsl(332, 51%, 32%);
+        }
+        @font-face {
+            font-family: 'outfit-light';
+            src: url('/assets/fonts/outfit/static/Outfit-Light.ttf');
+        }
+        .recipe-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            max-width: 600px;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-top: 0;
+        }
+        img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        .preparation-time {
+            background-color: #fdf2e9;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        .preparation-time h3 {
+            color: #e17055;
+            margin-top: 0;
+        }
+        h2 {
+            color: #e17055;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        li{
+            margin-top: 10px;
+        }
+        .nutrition {
+            margin-top: 20px;
+        }
+        .nutrition table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .nutrition th, .nutrition td {
+            text-align: left;
+            padding: 5px;
+            border-bottom: 1px solid #ddd;
+        }
+        strong{
+            font-weight: 700;
+        }
+        td{
+            color: hsl(14, 45%, 36%);
+            font-weight: 700;
+        }
